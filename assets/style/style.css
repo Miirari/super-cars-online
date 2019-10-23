@@ -155,4 +155,13 @@
 @media only screen and (max-device-width: 1024px) {
 .parallax {
  background-attachment: scroll;
+<<<<<<< HEAD
+=======
+}
+
+}
+
+.navbar {
+margin-bottom: 0 !important;
+>>>>>>> 21b88c8ee74b4a0798b05912b3247ee42929ae10
 }
