@@ -40,9 +40,7 @@ background-color: rgb(44, 44, 44);
     color: black;
       }
   
-   
-  }
-  .caption {
+    .caption {
     position: absolute;
     left: 0;
     top: 50%;
@@ -59,12 +57,9 @@ background-color: rgb(44, 44, 44);
   
   .parallax {
       
-    background-image: url("../img/ford\ wallpaper.jpg");
-  
-  
-  height: 200px;
-  
-    background-attachment: fixed;
+  background-image: url("../img/ford\ wallpaper.jpg");
+  height: 250px;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,11 +82,7 @@ background-color: rgb(44, 44, 44);
   .parallax {
    background-attachment: scroll;
   }
-  .left{
-    float:right;
-    width: 4px;
-    height: 4px;
-  }
+  
   }
   
   .navbar {
@@ -102,4 +93,21 @@ background-color: rgb(44, 44, 44);
   #myVideo {
     position: center;
     min-width: 100%;
+      }
+
+      .left{
+        float:left;
+        height: auto;
+        width: 40px;
+      }
+
+      .img-overview{
+        width: 33.10%;
+        height: auto;
+      }
+      h1{
+        color: white;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 20px;
+        text-align: center;
       }
