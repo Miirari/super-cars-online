@@ -11,7 +11,7 @@
 <body>
     <nav>
         <div class="navbar">
-            <img src="../img/index/logo.png">
+            <div class="branding">Super Cars Online</div>
             <a href="#home">Home</a>
             <a href="#news">Over</a>
             <a href="#contact">Contact</a>
@@ -24,65 +24,13 @@
 
    <div class="parallax"></div>
 
-
+   <center><video autoplay muted loop id="myVideo">
+    <source src="../mp4/The All-New 2020 Ford Mustang Shelby® GT500® The Legend Returns  Mustang  Ford.mp4" type="video/mp4">
+  </video></center>
    
-    <div class="slideshow-container">
-
-               <div class="mySlides fade">  
-          <img src="../img/ford mustang 4.jpg" style="width:100%">
-          <div class="text">Text</div>
-          </div>
-        
-        <div class="mySlides fade">
-          <img src="../img/ford mustang 5.jpg" style="width:100%">
-          <div class="text">text</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <img src="../img/ford mustang 6.jpg" style="width:100%">
-          <div class="text">text</div>
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-        </div>
-        
-        <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
-        
-        </body>
+  <img id="right" src="../img/ford mustang 4.jpg">
+  <img src="../img/ford mustang 5.jpg">
+  <img src="../img/ford mustang 6.jpg"
+           
+  </body>
 </html>
