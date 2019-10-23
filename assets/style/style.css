@@ -1,34 +1,71 @@
 *{
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .navbar{
-    overflow: hidden;
-    background-color: red;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  overflow: hidden;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar a {
-    font-family: 'Work Sans', sans-serif;
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px 25px;
-    text-decoration: none;
-  }
+  font-family: 'Work Sans', sans-serif;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+}
 
 .navbar a:hover {
-    background: green;
-    color: black;
-  }
+  background: green;
+  color: black;
+}
 
 .branding {
-    height: 3%;
-    width: 3%;
-    padding: 0px;
-    margin: 0px;
+  height: 3%;
+  width: 3%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.parallax { 
+  background-image: url("./assets/img/index/mustangParallax.jpg");
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+}
+
+#header{
+  position: absolute;
+  z-index: 1000;
+  top: 200px;
+  left: 200px;
+}
+
+.text-box{
+  height: 600px;
+  padding: 50px;
+}
+@media only screen and (max-device-width: 1024px) {
+.parallax {
+ background-attachment: scroll;
+}
+
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
 }
