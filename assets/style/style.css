@@ -6,7 +6,7 @@
 .navbar{
     overflow: hidden;
     background-color: red;
-    position: fixed;
+    position: static;
     top: 0;
     width: 100%;
 }
@@ -38,6 +38,7 @@
   position: relative;
   margin-top: 51px;
   margin-left: 250px;
+  width: 100%;
 }
 
 /* Hide the images by default */
@@ -124,4 +125,42 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+.parallax {
+    
+  background-image: url("../img/ford\ wallpaper.jpg");
+
+
+height: 200px;
+
+  background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+position: relative;
+}
+
+#header{
+position: absolute;
+z-index: 1000;
+top: 200px;
+left: 200px;
+}
+
+.text-box{
+height: 600px;
+padding: 50px;
+}
+@media only screen and (max-device-width: 1024px) {
+.parallax {
+ background-attachment: scroll;
+}
+
+}
+
+.navbar {
+margin-bottom: 0 !important;
 }
