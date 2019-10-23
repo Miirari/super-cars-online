@@ -3,10 +3,24 @@
   margin: 0px;
 }
 
+nav.navbar{
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.navbar-inverse {
+   background-color: red;
+   border-color: #080808;
+}
+
+nav.navbar.transparent {
+ background-color:rgba(0,0,0,0);
+}
+
 .navbar{
     overflow: hidden;
     background-color: red;
-    position: static;
+    position: fixed;
     top: 0;
     width: 100%;
 }
@@ -32,7 +46,7 @@
 }
 
 .logo{
-  align-items: ;
+  align-items:right;
 }
 
 .navbar a:hover {
@@ -152,16 +166,7 @@
   left: 200px;
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {}
 .parallax {
  background-attachment: scroll;
-<<<<<<< HEAD
-=======
-}
-
-}
-
-.navbar {
-margin-bottom: 0 !important;
->>>>>>> 21b88c8ee74b4a0798b05912b3247ee42929ae10
 }
