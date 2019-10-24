@@ -57,7 +57,7 @@ background-color: rgb(44, 44, 44);
   
   .parallax {
       
-  background-image: url("../img/ford\ wallpaper.jpg");
+  background-image: url("../img/ford/ford\ wallpaper.jpg");
   height: 250px;
   background-attachment: fixed;
   background-position: center;
