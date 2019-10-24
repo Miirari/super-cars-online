@@ -3,20 +3,6 @@
   margin: 0px;
 }
 
-nav.navbar{
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-
-.navbar-inverse {
-   background-color: red;
-   border-color: #080808;
-}
-
-nav.navbar.transparent {
- background-color:rgba(0,0,0,0);
-}
-
 .navbar{
     overflow: hidden;
     background-color: red;
@@ -46,7 +32,7 @@ nav.navbar.transparent {
 }
 
 .logo{
-  align-items:right;
+  align-items: ;
 }
 
 .navbar a:hover {
@@ -166,7 +152,11 @@ nav.navbar.transparent {
   left: 200px;
 }
 
-@media only screen and (max-device-width: 1024px) {}
+@media only screen and (max-device-width: 1024px) {
 .parallax {
  background-attachment: scroll;
 }
+
+.imgBrand{
+  width: 33.10%;
+  height: auto;
