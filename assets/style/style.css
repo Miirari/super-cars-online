@@ -2,7 +2,9 @@
   padding: 0px;
   margin: 0px;
 }
-
+body{
+  background-color: grey;
+}
 .navbar{
     overflow: hidden;
     background-color: red;
@@ -31,9 +33,6 @@
   text-decoration: none;
 }
 
-.logo{
-  align-items: ;
-}
 
 .navbar a:hover {
   background: green;
@@ -135,7 +134,7 @@
 }
 
 .parallax {
-  background-image: url("https://hdqwalls.com/download/2020-ford-mustang-shelby-gt500-4k-zl-1920x1080.jpg");
+  background-image: url("https://cdn.discordapp.com/attachments/628137088570621962/636994551835394059/mustangParallax.jpg");
   height: 200px;
   background-attachment: fixed;
   background-position: center;
@@ -143,6 +142,16 @@
   background-size: cover;
   margin: 0;
  
+}
+
+.img-overview{
+  width: 140px;
+  height: 160px;
+}
+
+.img-ferrari{
+  width: 160px;
+  height: 160px;
 }
 
 #header{
@@ -159,4 +168,5 @@
 
 .imgBrand{
   width: 33.10%;
-  height: auto;
+  height: 30px;
+}
