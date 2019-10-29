@@ -1,0 +1,33 @@
+body{
+    background-color: grey;
+    background-image: url("../img/index/Ferrari_contact_page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+  .parallax {
+    background-image: url("https://cdn.discordapp.com/attachments/628137088570621962/636994551835394059/mustangParallax.jpg");
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+  
+  h1{
+      color: white;
+      text-align: center;
+  }
+
+  h2{
+        color: white;
+        text-align: left;
+        margin-left: 600px;
+  }
+
+  a{
+      color: white;
+      text-align: center;
+  }

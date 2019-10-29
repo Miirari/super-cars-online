@@ -3,7 +3,8 @@
   margin: 0px;
 }
 body{
-  background-color: grey;
+  
+  background-image: url(../img/index/Ferrari_contact_page.jpg)
 }
 .navbar{
     overflow: hidden;
