@@ -19,15 +19,36 @@ body{
   h1{
       color: white;
       text-align: center;
+      font-family: sans-serif;
   }
 
   h2{
         color: white;
-        text-align: left;
-        margin-left: 600px;
+        text-align: center;
+        font-family: sans-serif;
   }
+
 
   a{
       color: white;
       text-align: center;
+      font-family: sans-serif;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: none;
   }
