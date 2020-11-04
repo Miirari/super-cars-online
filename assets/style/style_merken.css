@@ -12,6 +12,7 @@ body {
     position: static;
     top: 0;
     width: 100%;
+    transition: 0.5s;
 }
 
 .navbar a {
@@ -36,7 +37,7 @@ body {
 }
 
 .navbar a:hover {
-    background: green;
+    background: white;
     color: black;
       }
 
